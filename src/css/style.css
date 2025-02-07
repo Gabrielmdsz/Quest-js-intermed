@@ -1,0 +1,139 @@
+main{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 402px;
+    width: 800px;
+    display: flex;
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+.anuncio-suporte{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    max-width: 300px;
+    margin-left: 50px;
+    margin-right: 72px;
+}
+
+.anuncio-suporte .titulo{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.anuncio-suporte .texto{
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 378px;
+    width: 340px;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formulario .input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 700;
+    padding: 9px;
+    color: #A8A8A8;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+
+.formulario .area-texto{
+    width: 298px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 9px;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    color: #A8A8A8;
+    resize: none;
+}
+
+.formulario .campos-obgt{
+    align-self: self-start;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.formulario .btn-enviar{
+    width: 298px;
+    height: 35px;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    color: #fff;
+    height: 41px;
+    cursor: pointer;
+}
+
+.valido{
+    border-color: #00C22B;
+}
+.campo-vazio{
+    border: 1px solid #F52E2E;
+}
+
+
+.erro{
+    font-size: 8px;
+    color: #F52E2E;
+    font-weight: 300;
+    display: none;
+    position: absolute;
+}
+
+.erro-ativo{
+    display: inline;
+}
+
+
+.erro.nome{
+    top: 55px;
+    left: 22px;
+}
+.erro.email{
+    left: 22px;
+    top: 105px;
+}
+.erro.telefone{
+    left: 22px;
+    top: 155px;
+}
+.erro.mensagem{
+    left: 22px;
+    top: 270px;
+}
+
+
+
+
+
+       
