@@ -7,6 +7,7 @@
     <title>Quest Js Intermediario</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,29 +25,30 @@
             </div>
             <form action="index.html" method="get" class="formulario">
 
-                <input type="text" placeholder="Nome completo *"  id="nome" class="input">
+                <input type="text" placeholder="Nome completo *"  id="nome" class="input campo">
                 <span class="erro nome">campos obrigatório</span>
 
 
-                <input type="text" placeholder="Email *"  id="email" class="input">
+                <input type="text" placeholder="Email *"  id="email" class="input campo">
                 <span class="erro email">campos obrigatório</span>
 
 
-                <input type="text" placeholder="Telefone *"  id="telefone" class="input">
+                <input type="text" placeholder="Telefone *"  id="telefone" class="input campo">
                 <span class="erro telefone">campos obrigatório</span>
 
 
                 <textarea rows="5" cols="10"  id="mensagem" placeholder="Mensagem *"
-                    class="area-texto"></textarea>
+                    class="area-texto campo"></textarea>
                 <span class="erro mensagem">campos obrigatório</span> 
 
                 <p class="campos-obgt">*campos obrigatórios</p>
-                <input type="submit" value="Enviar" class="btn-enviar" id="btn-enviar">
+    
+                <button type="submit" value="Enviar" class="btn-enviar" id="btn-enviar">Enviar</button>
             </form>
         </div>
     </main>
 
-    <script src="src/js/index.js"></script>
+    <script src="src/js/form.js"></script>
 </body>
 
 </html>

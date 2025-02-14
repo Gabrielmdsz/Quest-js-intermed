@@ -1,0 +1,25 @@
+@media (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 25px;
+    }
+    .anuncio-suporte{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 25px;
+    }
+    .anuncio-suporte{
+        text-align: center;
+    }
+}
